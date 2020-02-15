@@ -20,6 +20,10 @@ const SongList = () => {
     console.log("useEffect hook run", songs);
   }, [songs]);
 
+  useEffect(() => {
+    console.log("useEffect hook run", age);
+  }, [age]);
+
   return (
     <div className="song-list">
       <ul>
